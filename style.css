@@ -1,0 +1,92 @@
+
+form{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 20px;
+}
+
+.header{
+    border: 1px solid;
+    border-bottom: none;
+    padding: 5px 20px;
+    background-color: #E9E9E9;
+    width: 800px
+}
+
+.form_body{
+    border: 1px solid;
+    padding: 20px;
+    width: 800px;
+}
+
+
+table{
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* 讓table之間沒有空隙 */
+    border-collapse: collapse;
+    width: 600px;
+    
+}
+td{
+    border:1px solid;
+}
+
+.red{
+    color: red;
+}
+
+ul{
+    list-style: none;
+}
+
+.row{
+    width: 100px;
+}
+
+.key{
+    width: 30%;
+    background-color: #EEE9E6;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+input{
+    margin: 5px 0px 5px 10px;
+}
+
+#sec{
+    margin-left: 0px;
+    width:20px
+}
+
+#tel{
+    margin-left: 0px;
+    width:90px
+}
+
+#branch{
+    margin-left:0px;
+    width:40px
+}
+
+.tel{
+    margin-left: 5px;
+}
+
+#recommender{
+    width: 40%
+}
+
+.code{
+    width:80px
+}
+
+button{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}

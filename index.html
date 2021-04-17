@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try一下</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <form>
+            <div class="header">▸ 我要加入會員</div>
+            <div class="form_body">
+                <p>嗨！歡迎您加入會員
+                    <span class="red">表格內*圖案代表必填欄位，請務必確實填寫，謝謝您</span>
+                </p>
+                <ul>
+                    <li>
+                        <p>1、設定您的帳號密碼</p>
+                        <table>
+                            <tr class="row">
+                                <td class="key"><span class="red">*</span>會員帳號</td>
+                                <td>
+                                    <input type="text" name="account" value="" required>
+                                    <span>＊此為未來登入用帳號，請務必留下正確的Ｅmail</span>
+                                </td>
+                            </tr>
+                            <tr class="row">
+                                <td class="key"><span class="red">*</span>密碼</td>
+                                <td>
+                                    <input type="password" name="password" value="" required>
+                                    <p>*8-20字元，至少包含2個英文與2個數字，不含空白、雙引號、單引號、星號、括號、大於、小於</p>
+                                </td>
+                            </tr>
+                            <tr class="row">
+                                <td class="key"><span class="red">*</span>密碼確認</td>
+                                <td>
+                                    <input type="password" name="password" value="" required>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <p>2、填寫個人基本資料</p>
+                        <table>
+                            <tr class="row">
+                                <td class="key"><span class="red">*</span>會員姓名</td>
+                                <td>
+                                    <input type="text" name="name" value="" required>
+                                    <p>＊請輸入您的真實姓名，否則將無法取得相關活動資格</span>
+                                </td>
+                            </tr>
+                            <tr class="row">
+                                <td class="key"><span class="red">*</span>性別</td>
+                                <td>
+                                    <input type="radio" name="sex" value="男" required>男
+                                    <input type="radio" name="sex" value="女" required> 女
+                                </td>
+                            </tr>
+                            <tr class="row">
+                                <td class="key"><span class="red">*</span>出生年月日</td>
+                                <td>
+                                    <input type="date" name="date" value="" required>
+                                </td>
+                            </tr>
+                            <tr class="row">
+                                <td class="key"><span class="red">*</span>聯絡電話</td>
+                                <td>
+                                    <span class="tel">行動電話</span><input type="tel" name="tel" value="" required>
+                                    <hr>
+                                    <span class="tel">電話</span>
+                                    (<input id="sec" type="tel" name="tel" value="" required>)-
+                                    <input  id="tel" type="tel" name="tel" value="" required>分機
+                                    <input id="branch" type="tel" name="tel" value="" required>
+                                </td>
+                            </tr>
+                            <tr class="row">
+                                <td class="key">訂閱電子報</td>
+                                <td>
+                                    <input type="checkbox" name="subscribe">訂閱電子報
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <table>
+                            <p>3、入會活動專區</p>
+                            <tr class="row">
+                                <td class="key" id="recommender">推薦人帳號</td>
+                                <td>
+                                    <input type="text" name="name" value="" >
+                                </td>
+                            </tr>
+                            <tr class="row">
+                                <td class="key">驗證碼</td>
+                            <td> 
+                                <input class="code" type="text" name="code" value="" >
+                                <img class="code" src="https://i.iter01.com/images/40a7212c136699ccd2fd7337b82ee475aae4080bd3b1965bb735e0966c72fbf8.png" alt="">
+                                <a href="#">更新驗證碼</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+                <center><button type="submit">▸ 確定送出</button></center>
+            </div>
+        </form>
+</body>
+</html>
